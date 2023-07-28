@@ -1,5 +1,6 @@
 #include"SList.h"
 
+
 void SLTPrint(SLTNode* phead)
 {
 	SLTNode* cur = phead;
