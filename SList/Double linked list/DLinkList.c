@@ -1,6 +1,5 @@
 #include"DLinkList.h"
 
-
 DLinkList* InitLinkList()
 {
 	DLinkList* plist = (DLinkList*)malloc(sizeof(DLinkList));
@@ -59,7 +58,7 @@ void PopBack(DLinkList* plist)
 		plist->prev = pre;
 	}
 	else
-		printf("ÎŞÊı¾İ£¬É¾³ıÊ§°Ü\n");
+		printf("æ— æ•°æ®ï¼Œåˆ é™¤å¤±è´¥\n");
 }
 
 void PushFront(DLinkList* plist, DataListType x)
@@ -136,5 +135,5 @@ void ListDestroy(DLinkList* plist)
 		cur = next;
 	}
 	free(plist);
-	plist = NULL;//µ«²¢²»»áÖÃ¿Õ±¾Éí,ÍâÃæÒª×Ô¼ºÖÃ¿ÕÒ»ÏÂ
+	plist = NULL;//ä½†å¹¶ä¸ä¼šç½®ç©ºæœ¬èº«,å¤–é¢è¦è‡ªå·±ç½®ç©ºä¸€ä¸‹
 }
