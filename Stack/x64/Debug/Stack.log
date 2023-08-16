@@ -1,0 +1,6 @@
+﻿  Stack.c
+D:\learn-soft\learn-Clanguage\数据结构\Stack\Stack\Stack.h(1,1): warning C4828: 文件包含在偏移 0x1a9 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  test.c
+D:\learn-soft\learn-Clanguage\数据结构\Stack\Stack\Stack.h(1,1): warning C4828: 文件包含在偏移 0x1a9 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  正在生成代码...
+  Stack.vcxproj -> D:\learn-soft\learn-Clanguage\数据结构\Stack\x64\Debug\Stack.exe
