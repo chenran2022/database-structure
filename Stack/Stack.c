@@ -1,11 +1,10 @@
 #include"Stack.h"
 
-
 void StackInit(ST* ps)
 {
 	assert(ps);
 	ps->data = NULL;
-	ps->top = 0;//Õ»¶¥Êý¾ÝµÄÉÏÒ»¸ö£¬Èç¹ûÊÇ-1£¬Ôò±íÊ¾Õ»¶¥Êý¾Ý
+	ps->top = 0;//æ ˆé¡¶æ•°æ®çš„ä¸Šä¸€ä¸ªï¼Œå¦‚æžœæ˜¯-1ï¼Œåˆ™è¡¨ç¤ºæ ˆé¡¶æ•°æ®
 	ps->capacity = 0;
 }
 
