@@ -1,5 +1,6 @@
 #include"queue.h"
 
+
 void test1()
 {
 	Queue q;
